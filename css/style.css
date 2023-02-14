@@ -1,0 +1,67 @@
+h1,
+h2,
+footer {
+    text-align: center;
+}
+
+h1{
+    text-shadow: 1.5px 1.5px 2px;
+}
+
+header{
+    background-image: url(/header2.jpg);
+    background-size: cover;
+    height: 50px;
+    color: white;
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 30em;
+    filter: brightness(1);
+    filter: grayscale(0);
+    text-align: center;
+}
+
+body {
+    padding: 32px;
+    width: auto;
+    color: #333;
+    background-image: url(/back2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+p {
+    font-size: large;
+}
+
+.wrapper {
+    border: 5px solid greenyellow;
+    width: 80vw;
+    /* to set the width to 80% of viewport */
+    background-color: aquamarine;
+    margin: 25px auto;
+    padding: 20px;
+}
+
+#exception {
+    color: initial;
+}
+
+li:nth-of-type(odd) {
+    font-weight: bold;
+}
+
+/* This media is used to make the image responsive */
+@media (max-width: 1380px) {
+    img {
+        max-width: 80%;
+        height: auto;
+    }
+}
